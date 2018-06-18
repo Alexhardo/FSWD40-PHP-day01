@@ -1,0 +1,36 @@
+.all{
+	text-align: center;
+	background: linear-gradient(to bottom right,  pink,white);
+}
+.middle{
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+	text-align: center;
+	line-height: 500px;
+}
+
+.date {
+    background: -webkit-linear-gradient( #D80D8E,#0B123F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+	
+	
+}
+.loop {
+	color: #660033;
+	overflow: scroll;
+	max-height: 20vw;
+	scroll-direction: horizontal;
+
+}
+.array{
+	color: orange;
+}
+
+html{
+	height: 100%;
+}
